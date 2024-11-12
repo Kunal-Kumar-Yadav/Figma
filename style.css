@@ -1,0 +1,215 @@
+.body{
+   margin: 0 0 0 0;
+   padding: 0;
+   
+}
+.mainarea{
+   background-image: url('Content.png');
+   background-size: 100% 100%;
+   height: 500px;
+}
+.toparea{
+   padding: 10px 10px;
+   text-align: center;
+   background: rgba(255, 255, 255, 0.1);
+   backdrop-filter: blur(3px);
+}
+.toparea img{
+   padding: 10px 0;
+}
+.toparea i{
+   padding: 20px 0;
+}
+.head ul li{
+   list-style: none;
+   float: left;
+   padding: 0 8px;
+   font-weight: bolder;
+   text-align: center
+}
+.head ul{
+   padding: 10px 20px;
+   text-align: center;
+}
+.contentarea{
+   text-align: left;
+   padding: 10px 0;
+   color: #fff;
+}
+#shop{
+   padding:10px;
+   background: #0F351B;
+   color: white;
+   width: 100px;
+   border-radius: 5%;
+   margin-bottom: 10px;
+   box-shadow: 0px 0px 50px black;
+   
+}
+#explore{
+   text-align: right;
+}
+.featured{
+   padding: 30px 0;
+   margin: 20px 0;
+   color: #0F351B;
+}
+.f1{
+   font-size: 20px;
+   font-weight: bolder;
+   margin: 20px 0;
+}
+.f2{
+   text-align: right;
+   font-weight: bolder;
+   margin: 20px 0;
+}
+.f2 a:visited,.f2 a:link{
+   color: white;
+   text-decoration: none;
+   background: #0F351B;
+   display: inline;
+   padding: 10px;
+   border-radius: 10px;
+   
+}
+.f2 a:hover{
+   color: white;
+   text-decoration: none;
+   display: inline;
+   background: #0F351B;
+}
+.featured img{
+  padding-top: 20px;
+}
+.feature-bg{
+    position: relative;
+    overflow: hidden;
+    margin: 40px 0;
+}
+.details{
+   position: absolute;
+   color: #fff;
+   background: rgba(0,0,0,0.2);
+   transition: all 2s;
+   padding: 20px 20px;
+   line-height: 10px;
+   width: 90%;
+   top: 190px;
+}
+.feature-bg:hover .details{
+   top: 120px;
+}
+.buy{
+   padding: 10px;
+   border: solid 1px white;
+   text-align: center;
+   display: inline;
+   border-radius: 5px;
+   
+}
+.search{
+   background-image: url('search-bg.png');
+   background-size: 100% 100%;
+   text-align: center;
+   padding: 50px 0;
+   height: 150px;
+}
+.new{
+   padding: 30px 0;
+   margin: 20px 0;
+   color: #0F351B;
+}
+.new-a{
+   text-align: left;
+   font-weight: bolder;
+   color: #0F351B;
+   font-size: 20px;
+}
+.new-b{
+   text-align: right;
+   font-weight: bolder;
+   color: #0F351B;
+   margin-bottom: 30px;
+}
+.new-b a:visited,.new-b a:link{
+   color: white;
+   text-decoration: none;
+   background: #0F351B;
+   display: inline;
+   padding: 10px;
+   border-radius: 10px;
+   
+}
+.new-b a:hover{
+   color: white;
+   text-decoration: none;
+   display: inline;
+   background: #0F351B;
+}
+.new img{
+   padding: 20px 0;
+   opacity: 0.7;
+}
+.new img:hover{
+   opacity: 1;
+}
+.stand{
+   padding: 30px 0;
+   margin: 20px 0;
+   color: #0F351B;
+}
+.stand img{
+   padding: 20px 0;
+   transition: all 2s;
+}
+.stand img:hover{
+   transform: scale(0.7,0.7);
+}
+.service .container .row{
+   background-image: url('color-three.png');
+   background-size: 100% 100%;
+   padding: 60px 0;
+   margin: 100px 0;
+   color: white;
+   height: 300px;
+   text-align: center;
+   border-radius: 15px;
+}
+.footer{
+   padding: 30px 0;
+   background: #0F351B;
+   color: #fff;
+}
+#fo2 p{
+   color: lightgrey;
+   line-height: 15px;
+}
+/*#fo2 ul li{
+   list-style-type: none;
+}*/
+#fo3 p{
+   color: lightgrey;
+   line-height: 15px;
+}
+#fo4 p{
+   color: lightgrey;
+}
+.fo5{
+   text-align: left;
+}
+.fo6{
+   text-align: right;
+}
+.last-row{
+   background: rgba(255,255,255,0.1);
+   border-radius: 5%;
+   padding: 20px 0;
+  
+}
+.row1{
+   background: rgba(255,255,255,0.1);
+   border-radius: 5%;
+   padding: 10px 0;
+   margin: 10px 0;
+}
